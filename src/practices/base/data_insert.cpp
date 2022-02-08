@@ -1,14 +1,14 @@
-//
-// Created by chenjiahong on 2022/1/6.
-//
-/**
- * 数据输入
- */
+////
+//// Created by chenjiahong on 2022/1/6.
+////
+///**
+// * 数据输入
+// */
 
-#include <iostream>
-using namespace std;
-
-int main(){
+//#include <iostream>
+//using namespace std;
+//
+//int main(){
     // 整型
 //    int a = 0;
 //    cout << "Please insert int type data : " << endl;
@@ -34,10 +34,10 @@ int main(){
 //    cout << "str : " << str << endl;
 
     // 布尔类型
-    bool flag = true;
-    cout << "Please insert bool type data :" << endl;
-    cin >> flag;
-    cout << "flag : "<< flag << endl;
-
-    return EXIT_SUCCESS;
-}
+//    bool flag = true;
+//    cout << "Please insert bool type data :" << endl;
+//    cin >> flag;
+//    cout << "flag : "<< flag << endl;
+//
+//    return 0;
+//}
