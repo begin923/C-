@@ -4,7 +4,7 @@
 //
 ///*
 // * 程序名：linklist6.c，此程序演示链表的常用考题，在linklist1.c上增加了常用考题的解答。
-// * 作者：CLTN(www.freecplus.net) 日期：20201230
+// * 作者：dataStructrue_base(www.freecplus.net) 日期：20201230
 //*/
 //#include <stdio.h>
 //#include <string.h>

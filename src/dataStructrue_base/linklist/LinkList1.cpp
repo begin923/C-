@@ -4,7 +4,7 @@
 //
 ///*
 // * 程序名：linklist1.c，此程序演示带头结点的单链表的实现，数据元素是整数。
-// * 作者：CLTN(www.freecplus.net) 日期：20201230
+// * 作者：dataStructrue_base(www.freecplus.net) 日期：20201230
 //*/
 //#include <stdio.h>
 //#include <string.h>
