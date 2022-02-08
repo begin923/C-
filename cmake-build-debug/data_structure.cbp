@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="data_structure"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/codes/CCodes/data_structure/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/public-package/packages/MinGW/bin/mingw32-make.exe -f &quot;D:/codes/CCodes/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/public-package/packages/MinGW/bin/mingw32-make.exe -f &quot;D:/codes/CCodes/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/public-package/packages/MinGW/bin/mingw32-make.exe -f &quot;D:/codes/CCodes/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/public-package/packages/MinGW/bin/mingw32-make.exe -f &quot;D:/codes/CCodes/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data_structure">
+				<Option output="D:/codes/CCodes/data_structure/cmake-build-debug/data_structure.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/codes/CCodes/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\public-package\packages\mingw\bin\../lib/gcc/mingw32/4.7.1/include/c++"/>
+					<Add directory="d:\public-package\packages\mingw\bin\../lib/gcc/mingw32/4.7.1/include/c++/mingw32"/>
+					<Add directory="d:\public-package\packages\mingw\bin\../lib/gcc/mingw32/4.7.1/include/c++/backward"/>
+					<Add directory="d:\public-package\packages\mingw\bin\../lib/gcc/mingw32/4.7.1/include"/>
+					<Add directory="d:\public-package\packages\mingw\bin\../lib/gcc/mingw32/4.7.1/../../../../include"/>
+					<Add directory="d:\public-package\packages\mingw\bin\../lib/gcc/mingw32/4.7.1/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/public-package/packages/MinGW/bin/mingw32-make.exe -f &quot;D:/codes/CCodes/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 data_structure"/>
+					<CompileFile command="D:/public-package/packages/MinGW/bin/mingw32-make.exe -f &quot;D:/codes/CCodes/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/public-package/packages/MinGW/bin/mingw32-make.exe -f &quot;D:/codes/CCodes/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/public-package/packages/MinGW/bin/mingw32-make.exe -f &quot;D:/codes/CCodes/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data_structure/fast">
+				<Option output="D:/codes/CCodes/data_structure/cmake-build-debug/data_structure.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/codes/CCodes/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\public-package\packages\mingw\bin\../lib/gcc/mingw32/4.7.1/include/c++"/>
+					<Add directory="d:\public-package\packages\mingw\bin\../lib/gcc/mingw32/4.7.1/include/c++/mingw32"/>
+					<Add directory="d:\public-package\packages\mingw\bin\../lib/gcc/mingw32/4.7.1/include/c++/backward"/>
+					<Add directory="d:\public-package\packages\mingw\bin\../lib/gcc/mingw32/4.7.1/include"/>
+					<Add directory="d:\public-package\packages\mingw\bin\../lib/gcc/mingw32/4.7.1/../../../../include"/>
+					<Add directory="d:\public-package\packages\mingw\bin\../lib/gcc/mingw32/4.7.1/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/public-package/packages/MinGW/bin/mingw32-make.exe -f &quot;D:/codes/CCodes/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 data_structure/fast"/>
+					<CompileFile command="D:/public-package/packages/MinGW/bin/mingw32-make.exe -f &quot;D:/codes/CCodes/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/public-package/packages/MinGW/bin/mingw32-make.exe -f &quot;D:/codes/CCodes/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/public-package/packages/MinGW/bin/mingw32-make.exe -f &quot;D:/codes/CCodes/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/codes/CCodes/data_structure/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/public-package/packages/MinGW/bin/mingw32-make.exe -f &quot;D:/codes/CCodes/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/public-package/packages/MinGW/bin/mingw32-make.exe -f &quot;D:/codes/CCodes/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/public-package/packages/MinGW/bin/mingw32-make.exe -f &quot;D:/codes/CCodes/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/public-package/packages/MinGW/bin/mingw32-make.exe -f &quot;D:/codes/CCodes/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/codes/CCodes/data_structure/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/public-package/packages/MinGW/bin/mingw32-make.exe -f &quot;D:/codes/CCodes/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/public-package/packages/MinGW/bin/mingw32-make.exe -f &quot;D:/codes/CCodes/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/public-package/packages/MinGW/bin/mingw32-make.exe -f &quot;D:/codes/CCodes/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/public-package/packages/MinGW/bin/mingw32-make.exe -f &quot;D:/codes/CCodes/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/codes/CCodes/data_structure/LinkLists/dynamic_sequence.h">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/LinkLists/initList.h">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/LinkLists/singleLinks.h">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/LinkLists/static_sequence.h">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/addressBooks/addressBooks.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/addressBooks/addressBooks.h">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/array.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/bubble_sort.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/constant_use.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/data_insert.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/data_operator.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/do_while.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/func/func1.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/func/func2.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/func/swap.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/func/swap.h">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/if_structure.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/insertdata.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/multi_array.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/pointer/const.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/pointer/nullAndWildPointer.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/pointer/pointerDefAndUsing.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/pointer/pointer_array.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/pointer/pointer_array_func.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/pointer/pointer_parameter.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/sizeof_datatype.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/struct/struct_ASparameter.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/struct/struct_array.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/struct/struct_case1.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/struct/struct_case2.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/struct/struct_const.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/struct/struct_def_using.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/struct/struct_nest.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/struct/struct_pointer.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/switch.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/base/while.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/elementary/func/func_default_parm.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/elementary/func/func_occupy.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/elementary/func/func_reload.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/elementary/global.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/elementary/heap.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/elementary/new.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/elementary/quote/constant_quote.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/elementary/quote/quote_grammar.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/elementary/quote/quote_nature.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/elementary/quote/quote_param.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/elementary/quote/quote_return.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/20220103/elementary/stack.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/CLTN/KMP/KMP-01.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/CLTN/KMP/KMP.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/CLTN/algo/bubblesort1-01.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/CLTN/algo/buckect1-01.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/CLTN/algo/countSort1-01.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/CLTN/algo/insertSort1-01.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/CLTN/algo/mergeSort.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/CLTN/algo/quickSort1-01.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/CLTN/algo/selectSort1-01.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/CLTN/algo/shellSort1-01.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/CLTN/btree/btree1-01.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/CLTN/btree/btree1-02.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/CLTN/btree/btree1-03.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/CLTN/btree/btree1.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/CLTN/linklist/LinkList1-01.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/CLTN/linklist/LinkList1-02.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/CLTN/linklist/LinkList1-03.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/CLTN/linklist/LinkList1-04.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/CLTN/linklist/LinkList1-05.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/CLTN/linklist/LinkList1.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/CLTN/linklist/linklist6.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/CLTN/seqList/seqList01.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/CLTN/seqList/seqList1-01.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/CLTN/seqList/seqList1-02.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/CLTN/seqqueue/seqqueue1-01.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/CLTN/seqqueue/seqqueue1-02.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/CLTN/stack/111.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/CLTN/stack/listStack1-01.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/CLTN/stack/seqStack1-01.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/chapter2/LInkList2.3/double_LinkList.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/chapter2/LInkList2.3/double_LinkList.h">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/chapter2/LInkList2.3/single_LinkList_1.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/chapter2/LInkList2.3/single_LinkList_1.h">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/chapter2/LinkList2.1/sequence_list_1.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/chapter2/LinkList2.1/sequence_list_1.h">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/chapter2/LinkList2.1/sequence_list_2.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/chapter2/LinkList2.1/sequence_list_2.h">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/chapter2/LinkList2.2/Link2.2.h">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/chapter2/LinkList2.2/examples.h">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/chapter2/LinkList2.2/single_LinkList.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/chapter2/LinkList2.2/single_LinkList.h">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/chapter2/LinkList2.4/LinkList2_4_1.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/chapter2/LinkList2.4/LinkList2_4_1.h">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/chapter2/LinkList2.5/LinkList2_5.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/chapter2/LinkList2.5/LinkList2_5.h">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/chapter2/LinkList2.6/LinkList2_6.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/chapter2/LinkList2.6/LinkList2_6.h">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/chapter2/practice2.3/practice2_3.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/chapter2/practice2.3/practice2_3.h">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/practices/chapter2/seqlist/seqlist.c">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/codes/CCodes/data_structure/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
