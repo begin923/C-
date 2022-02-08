@@ -1,66 +1,79 @@
+////
+//// Created by JM on 2022-02-05.
+////
 //
-// Created by JM on 2022-02-05.
+//#include <iostream>
+//using namespace std;
 //
-
-#include <iostream>
-using namespace std;
-
-/**
- * å‡½æ•°é‡è½½ï¼šå‡½æ•°åç›¸åŒï¼Œå½¢å‚ä¸åŒï¼Œæé«˜å‡½æ•°çš„å¤ç”¨æ€§
- * 1ã€æ»¡è¶³æ¡ä»¶ï¼š
- *      1ã€åŒä¸€ä¸ªä½œç”¨åŸŸä¸‹
- *      2ã€å‡½æ•°åç›¸åŒ
- *      3ã€å‡½æ•°å‚æ•°ç±»åž‹ä¸åŒæˆ–å‚æ•°ä¸ªæ•°ä¸åŒæˆ–å‚æ•°é¡ºåºä¸åŒ
- * 2ã€æ³¨æ„äº‹é¡¹ï¼š
- *      1ã€å‡½æ•°çš„è¿”å›žå€¼ä¸å¯ä»¥ä½œä¸ºå‡½æ•°é‡è½½çš„æ¡ä»¶
- *      2ã€å¼•ç”¨ä½œä¸ºå‡½æ•°å‚æ•°çš„æƒ…å†µ(æœ‰æ—  const ä¿®é¥°)
- *      3ã€å‡½æ•°é‡è½½ç¢°åˆ°å‚æ•°æœ‰é»˜è®¤å€¼{è¦é¿å…å‡ºçŽ°}
- * @return
- */
-
-// å‡½æ•°é‡è½½éƒ½åœ¨ç»Ÿä¸€ä½œç”¨åŸŸä¸‹
-void func(){
-   cout << "func çš„è°ƒç”¨ï¼" << endl;
-}
-void func(int a){
-    cout << "func (int a) çš„è°ƒç”¨ï¼" << endl;
-}
-void func(double a)
-{
-    cout << "func (double a)çš„è°ƒç”¨ï¼" << endl;
-}
-void func(int a ,double b)
-{
-    cout << "func (int a ,double b) çš„è°ƒç”¨ï¼" << endl;
-}
-void func(double a ,int b)
-{
-    cout << "func (double a ,int b)çš„è°ƒç”¨ï¼" << endl;
-}
-//å‡½æ•°è¿”å›žå€¼ä¸å¯ä»¥ä½œä¸ºå‡½æ•°é‡è½½æ¡ä»¶
-//int func(double a, int b)
+///**
+// * º¯ÊýÖØÔØ£ºº¯ÊýÃûÏàÍ¬£¬ÐÎ²Î²»Í¬£¬Ìá¸ßº¯ÊýµÄ¸´ÓÃÐÔ
+// * 1¡¢Âú×ãÌõ¼þ£º
+// *      1¡¢Í¬Ò»¸ö×÷ÓÃÓòÏÂ
+// *      2¡¢º¯ÊýÃûÏàÍ¬
+// *      3¡¢º¯Êý²ÎÊýÀàÐÍ²»Í¬»ò²ÎÊý¸öÊý²»Í¬»ò²ÎÊýË³Ðò²»Í¬
+// * 2¡¢×¢ÒâÊÂÏî£º
+// *      1¡¢º¯ÊýµÄ·µ»ØÖµ²»¿ÉÒÔ×÷Îªº¯ÊýÖØÔØµÄÌõ¼þ
+// *      2¡¢ÒýÓÃ×÷Îªº¯Êý²ÎÊýµÄÇé¿ö(ÓÐÎÞ const ÐÞÊÎ)
+// *      3¡¢º¯ÊýÖØÔØÅöµ½²ÎÊýÓÐÄ¬ÈÏÖµ{Òª±ÜÃâ³öÏÖ}
+// * @return
+// */
+//
+//// º¯ÊýÖØÔØ¶¼ÔÚÍ³Ò»×÷ÓÃÓòÏÂ
+//void func(){
+//   cout << "func µÄµ÷ÓÃ£¡" << endl;
+//}
+//void func(int a){
+//    cout << "func (int a) µÄµ÷ÓÃ£¡" << endl;
+//}
+//void func(double a)
 //{
-//	cout << "func (double a ,int b)çš„è°ƒç”¨ï¼" << endl;
+//    cout << "func (double a)µÄµ÷ÓÃ£¡" << endl;
+//}
+//void func(int a ,double b)
+//{
+//    cout << "func (int a ,double b) µÄµ÷ÓÃ£¡" << endl;
+//}
+//void func(double a ,int b)
+//{
+//    cout << "func (double a ,int b)µÄµ÷ÓÃ£¡" << endl;
+//}
+////º¯Êý·µ»ØÖµ²»¿ÉÒÔ×÷Îªº¯ÊýÖØÔØÌõ¼þ
+////int func(double a, int b)
+////{
+////	cout << "func (double a ,int b)µÄµ÷ÓÃ£¡" << endl;
+////    return 0;
+////}
+//
+//void func1(int &a){
+//    cout << "func(int &a) µ÷ÓÃ" << endl;
+//}
+//void func1(const int &a){
+//    cout << "func(const int &a) µ÷ÓÃ" << endl;
+//}
+//
+//// ÓÐ²ÎÊýÄ¬ÈÏÖµµÄº¯ÊýÖØÔØ£¬Òª¾¡Á¿±ÜÃâ
+//void func2(int a , int b = 20){
+//    cout << "func2(int a , int b = 20) µ÷ÓÃ" << endl;
+//}
+//void func2(int a ){
+//    cout << "func2(int a) µ÷ÓÃ" << endl;
+//}
+//
+//int main(){
+//    // »ù±¾º¯ÊýÖØÔØ
+////    func();
+////    func(10);
+////    func(3.14);
+////    func(10,3.14);
+////    func(3.14 , 10);
+//
+//    // º¯ÊýÐÎ²ÎÊÇÒýÓÃ»òÓÐÄ¬ÈÏÖµ
+//    int a = 10;
+//    func1(a);
+//    func1(10);
+//
+//    func2(10,30);
+//
+//
 //    return 0;
 //}
-
-void func(int &a){
-    cout << "func(int &a) è°ƒç”¨" << endl;
-}
-//void func(const int &a){
-//    cout << "func(const int &a) è°ƒç”¨" << endl;
-//}
-
-
-
-int main(){
-    // åŸºæœ¬å‡½æ•°é‡è½½
-    func();
-    func(10);
-    func(3.14);
-    func(10,3.14);
-    func(3.14 , 10);
-
-    // å‡½æ•°å½¢å‚æ˜¯å¼•ç”¨æˆ–æœ‰é»˜è®¤å€¼
-    return 0;
-}
