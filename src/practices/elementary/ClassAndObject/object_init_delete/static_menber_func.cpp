@@ -29,6 +29,10 @@
 //        cout << m_a << endl;
 //    };
 //
+//    void func4(){
+//        func3();
+//    }
+//
 //private:
 //    static void func2(){
 //        cout << "µ÷ÓÃ func2" << endl;
