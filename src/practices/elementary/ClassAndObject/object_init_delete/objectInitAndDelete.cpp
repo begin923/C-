@@ -8,9 +8,13 @@
 //using namespace std;
 //
 //class Person{
+//    friend void test();
+//private:
+//    int m_num;
 //public:
 //    // 构造函数
-//    Person(){
+//    Person(int num){
+//        this->m_num = num;
 //        cout << "调用构造函数"<< endl;
 //    }
 //    // 析构函数
@@ -20,7 +24,14 @@
 //};
 //
 //void test(){
-//    Person p;
+//    Person p1(10);
+//    Person p2(20);
+//    cout << p1.m_num << endl;
+//    cout << p2.m_num << endl;
+//    p2 = p1;
+//    cout << p1.m_num << endl;
+//    cout << p2.m_num << endl;
+//    cout << "test 0000011111 " << endl;
 //}
 //
 ///**
