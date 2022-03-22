@@ -41,7 +41,7 @@
 //
 //int Person::m_a = 100;
 //
-//void test(){
+//void check(){
 //    Person p1;
 //    p1.func1();
 //
@@ -52,7 +52,7 @@
 //}
 //
 //int main(){
-//    test();
+//    check();
 //
 //    return 0;
 //}

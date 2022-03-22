@@ -4,17 +4,17 @@
 ////
 //
 //#include <iostream>
-//#include "../../../../../head/person.h"
+//#include "../../../../../entity/person.h"
 //using namespace std;
 //
-//void test(){
+//void check(){
 //    Person p;
 //    Person p1(p);
 //    cout << "p.age_:" << p.getAge_()<< endl;
 //}
 //
 //int main(){
-//    test();
+//    check();
 //    return 0;
 //}
 //
